@@ -3,3 +3,7 @@
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
+
+.lead {
+    background-color: rgba(54, 128, 202, 0.5);
+}
