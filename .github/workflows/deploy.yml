@@ -41,7 +41,7 @@ jobs:
         run: npm run lint
 
       - name: Run Prettier
-        run: npm run lint:prettier 
+        run: npm run lint:prettier --write
 
       - name: Run Stylelint
         run: npm run lint:stylelint
