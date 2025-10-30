@@ -40,8 +40,11 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
+      - name: Run PrettierFix
+        run: npx prettier --write .
+
       - name: Run Prettier
-        run: npm run lint:prettier --write
+        run: npm run lint:prettier
 
       - name: Run Stylelint
         run: npm run lint:stylelint
